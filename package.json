@@ -1,0 +1,27 @@
+{
+  "name": "timeforge",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "description": "Timeforge is a TypeScript library for handling date and time operations. It provides utilities for working with dates in different timezones and formats.",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "timeforge",
+    "date modification",
+    "date work"
+  ],
+  "author": "Hovhannes Khachatryan",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "tsup": "^8.0.2"
+  }
+}
